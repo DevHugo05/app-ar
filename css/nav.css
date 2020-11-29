@@ -1,0 +1,29 @@
+.navegacion {
+  position: fixed;
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  background: #000000;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+
+.nav-icon {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.nav-icon a i {
+  font-size: 1.5rem;
+  color: #c31432;
+}
+
+.nav-icon a i:hover {
+  color: whitesmoke;
+  font-size: 1.7rem;
+}
